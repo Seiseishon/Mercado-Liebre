@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb;
+}
+header{
+    background-color: #EAC926;
+    height: 130px;
+}
+.barra{
+    position: relative;
+}
+.barra-de-busqueda{
+   position: absolute;
+   padding: 10px;
+   left: 26%;
+   width: 30%;
+   top: -25px;
+}
+
+.boton{
+    background-color: white;
+    color:rgba(0,0,0);
+    position: absolute;
+    left: 54%;
+    top:-24px;
+    cursor: pointer;
+    font-size: 31px;
+    border: #ebebeb;
+}
+li{
+    display: inline;
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.logo-mercado-liebre{
+    width: 10%;
+    position: relative;
+    left: 10%;
+    top:20px;
+}
+.nav-bar{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+}
+.cuotas{
+    position: relative;
+    left: 55%;
+    top: -20px;
+    text-align: center;
+    width: 20%;
+}
+.contenedor{
+    background-color: #ffff;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+#card{
+    font-size: 100px;
+    color: #1259c3;
+    margin-left: 32%;
+}
+#envio-gratis{
+    font-size: 100px;
+    color: #1259c3;
+    margin-left: 32%;
+}
+
+#seguridad{
+    font-size: 100px;
+    color: #1259c3;
+    margin-left: 32%;
+}
+h1{
+    position: absolute;
+    top: 270px;
+    left: 36%;
+    font-size: 15px;
+}
+.caja{
+    background-color: #ffff;
+    position: relative;
+    top: 20px;
+    left: 10%;
+    width: 80%;
+    height: 700px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.usuario{
+    position: relative;
+    top: 100px;
+    left: 10%;
+}
+input{
+    width: 80%;
+    padding:10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.nombre{
+    position: relative;
+    top: 90px;
+    left: 10%;
+}
+.registro{
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.contraseña{
+    position: relative;
+    top: 160px;
+    left: 10%;
+}
+.password{
+    position: relative;
+    top: 150px;
+    left: 10%;
+}
+.subir{
+    position: relative;
+    top: 200px;
+    left: 44%;
+    background-color: blue;
+    color: #ffff;
+    width: 10%;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+section{
+    position: relative;
+    top: 30px;
+}
+.miscompras{
+    position: relative;
+    right: 20px;
+}
+.name{
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+.input1{
+    position: relative;
+    top: 40px;
+    width: 40%;
+    right: 9.4%;
+    font-size: 15px;
+}
+.email{
+    position: relative;
+    top: 120px;
+    width: 50%;
+    left: 5%;
+    font-size: 15px;
+}
+.email1{
+    position: relative;
+    top: 115px;
+    width: 40%;
+    left: 5%;
+    font-size: 15px;
+}
+.domicilio{
+    position: relative;
+    top: 140px;
+    width: 50%;
+    left: 5%;
+    font-size: 15px;
+}
+.domicilio1{
+    position: relative;
+    top: 130px;
+    width: 40%;
+    left: 5%;
+    font-size: 15px;
+}
+.perfil{
+    position: relative;
+    top: 200px;
+    width: 50%;
+    left: 5%;
+    font-size: 15px;
+}
+.perfil1{
+    position: relative;
+    top: 180px;
+    width: 40%;
+    left: 5%;
+    font-size: 13px;
+}
+.vender{
+    position: relative;
+    top: 210px;
+    width: 40%;
+    left: 5%;
+    font-size: 13px;
+}
+.comprar{
+    position: relative;
+    top: 230px;
+    width: 40%;
+    left: 2%;
+    font-size: 13px;
+}
+.contraseña{
+    position: relative;
+    top: 280px;
+    width: 50%;
+    left: 5%;
+    font-size: 15px;
+}
+.contraseña1{
+    position: relative;
+    top: 260px;
+    width: 40%;
+    left: 5%;
+    font-size: 15px;
+}
+.user{
+    position: relative;
+    bottom: 170px;
+    width: 50%;
+    left: 50%;
+    font-size: 15px;
+}
+.user1{
+    position: relative;
+    bottom: 180px;
+    width: 40%;
+    left: 50%;
+    font-size: 15px;
+}
+.fecha{
+    position: relative;
+    bottom: 163px;
+    width: 50%;
+    left: 50%;
+    font-size: 15px;
+}
+.fecha1{
+    position: relative;
+    bottom: 165px;
+    width: 40%;
+    left: 50%;
+    font-size: 15px;
+}
+.foto{
+    border: 2px black solid;
+    position: relative;
+    bottom: 150px;
+    width: 40%;
+    left: 50%;
+    font-size: 15px;
+}
+.foto1{
+    position: relative;
+    bottom: 155px;
+    width: 40%;
+    left: 50%;
+    font-size: 15px;
+}
+.confirmar{
+    position: relative;
+    top: 42px;
+    width: 50%;
+    left: 50%;
+    font-size: 15px;
+}
+.confirmar1{
+    position: relative;
+    top: 28px;
+    width: 40%;
+    left: 50%;
+    font-size: 15px;
+}
+.borrar{
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 60px;
+    width: 40%;
+    height: 50px;
+    left: 5%;
+    font-size: 15px;
+}
+.enviar{
+    background-color: blue;
+    position: relative;
+    top: 60px;
+    left: 9.8%;
+    color: white;
+    width: 40%;
+    height: 50px;
+}

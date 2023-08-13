@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb;
+}
+
+p{
+    font-size: 12px;
+    width: 10%;
+}
+
+.ultima-compra-y-oferta{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    width: 20%;
+    position: relative;
+    left: 80px;
+    bottom: 22px;
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.fondo{
+    background-color: white;
+    width: 20%;
+    border: solid 1px #ebebeb;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    max-width:47%;
+}
+
+
+.descripcion{
+    font-size: 16px;
+}
+
+.cuotas{
+    position: relative;
+    left: 60%;
+    top: -20px;
+    text-align: center;
+}
+
+
+.camion{
+    color: #39b54a;
+    position: relative;
+    bottom: 13px;
+    left: 85%;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+}
+
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+.contenedor{
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.boton{
+    background-color: white;
+    color:rgba(0,0,0,0.5);
+    position: absolute;
+    left: 54%;
+    top:-24px;
+    cursor: pointer;
+    font-size: 31px;
+    border: #ebebeb;
+}
+li{
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#card{
+    font-size: 100px;
+    color: #1259c3;
+    margin-left: 37%;
+}
+
+.tarjeta{
+    text-align: center;
+    font-size: 20px;
+}
+
+.parrafo{
+    width: 100%;
+    font-size: 15px;
+}
+
+
+#envio-gratis{
+    font-size: 100px;
+    color: #1259c3;
+    margin-left: 37%;
+}
+
+#seguridad{
+    font-size: 100px;
+    color: #1259c3;
+    margin-left: 37%;
+}
+.barra{
+    position: relative;
+}
+.barra-de-busqueda{
+   position: absolute;
+   padding: 10px;
+   left: 26%;
+   width: 30%;
+   top: -25px;
+}
+.image{
+    border: 34px solid #ebebeb;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    width: 100%;
+    border-bottom: 4px solid #ebebeb;
+    width: 100%;
+}
+.logo-mercado-liebre{
+    width: 10%;
+    position: relative;
+    left: 15%;
+    top:20px;
+}
+.nav-bar{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+}
+.flex{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.descripcion, ul{
+        display: none;
+}
+.banner{
+        width: 100%;
+}
+header{
+        box-sizing: border-box;
+        width: 100%;
+}
+.boton1{
+        top: -10px;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        border: black solid 1px;
+}
+.descripcion, ul{
+        display:block;
+}
+    
+.boton1{
+        display: none;
+}
+h1{
+    position: absolute;
+    bottom: -700px;
+    left: 90%;
+    font-size: 15px;
+}
